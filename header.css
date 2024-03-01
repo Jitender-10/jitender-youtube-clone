@@ -1,0 +1,236 @@
+.tube-top {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    border-bottom-color: whitesmoke;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    z-index: 100;
+    background-color: rgb(12,12,12);
+
+}
+
+.left-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px;
+    margin-left:24px;
+}
+
+.line-icon {
+    width: 18px;
+    height: 16px;
+    
+}
+
+.hover-a {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-a:hover {
+    background-color:rgb(40, 38, 38);
+}
+
+.utube-icon {
+    padding-left: 26px;
+    height: 20px;
+}
+
+.middle-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 600px;
+    flex: 1;
+    vertical-align: top;
+}
+
+.search-bar {
+    height: 30px;
+    display: flex;
+    background-color: black;
+    border: solid;
+    padding-left: 20px;
+    flex: 1;
+    color: rgb(184, 162, 162);
+    font-size: 15px;
+    width: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    vertical-align: top;
+    border-width: 1px;
+
+}
+
+.search-photo {
+    height: 34px;
+    vertical-align: top;
+}
+
+.mike-icon {
+    margin-left: 20px;
+    position: relative;
+
+}
+
+.mike-photo {
+    height: 40px;
+    vertical-align: top;
+}
+
+.right-part {
+    display: flex;
+    flex-direction: row;
+    margin-left: 140px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.num {
+    background-color: rgb(216, 8, 8);
+    font-size: 14px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    border-radius: 9px;
+    position: absolute;
+    right: -7px;
+    top: -6px;
+}
+
+.create,
+.bell {
+    display: flex;
+    margin: 15px;
+    position: relative;
+}
+
+.create-icon {
+    height: 17px;
+}
+
+.bell-icon {
+    height: 23px;
+
+}
+
+.channel-photo {
+    height: 38px;
+    width: 38px;
+    border-radius: 19px;
+    margin: 15px
+}
+
+.search-template {
+    color: white;
+    background-color: rgb(124, 115, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: 12px;
+    transition: opacity 0.15s;
+    width: 60px;
+    height: 26px;
+    border-radius: 3px;
+    bottom: -40px;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.search-icon:hover .search-template {
+    opacity: 1;
+}
+
+.search-icon {
+    position: relative;
+}
+
+.search-template-2 {
+    color: white;
+    background-color: rgb(124, 115, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 12px;
+    transition: opacity 0.15s;
+    width: 130px;
+    height: 26px;
+    border-radius: 3px;
+    bottom: -40px;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.mike-photo:hover {
+    opacity: 0.5;
+}
+
+.mike-icon:hover .search-template-2 {
+    opacity: 1;
+}
+
+.create:hover .search-template {
+    opacity: 1;
+}
+
+.create .search-template {
+
+    color: white;
+    background-color: rgb(124, 115, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: 12px;
+    transition: opacity 0.15s;
+    width: 60px;
+    height: 26px;
+    border-radius: 3px;
+    bottom: -50px;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    left: -13px;
+
+}
+
+.search-template-3 {
+    color: white;
+    background-color: rgb(124, 115, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 12px;
+    transition: opacity 0.15s;
+    width: 80px;
+    height: 26px;
+    border-radius: 3px;
+    bottom: -45px;
+    left: -13px;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.bell:hover .search-template-3{
+    opacity:1;
+}

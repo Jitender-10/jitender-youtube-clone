@@ -1,0 +1,74 @@
+.sidebar {
+    position: fixed;
+    top:70px;
+    bottom: 0;
+    left:0;
+    width: 80px;
+    background-color:rgb(12,12,12)  ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.home-icon {
+    height: 75px;
+    width: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+
+.home-icon:hover , .shorts-icon:hover , .subscribe:hover, .you-icon:hover {
+    background-color: rgb(39, 37, 37);
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.home-photo,
+.shorts,
+.sub-icon,
+.you {
+    width: 25px;
+}
+
+.side-text {
+    font-size: 10px;
+}
+
+.shorts-icon {
+    height: 75px;
+    width: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+
+.subscribe {
+    height: 75px;
+    width: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+
+.you-icon {
+    height: 75px;
+    width: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
